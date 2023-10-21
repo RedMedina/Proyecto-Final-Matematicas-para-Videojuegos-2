@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F87F18A-4AFD-4D59-9B7D-26BA418AE88F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Proyecto_Final_Matematicas_para_Videojuegos_2</RootNamespace>
+    <AssemblyName>Proyecto Final Matematicas para Videojuegos 2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BresenhamI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BresenhamI.Designer.cs">
+      <DependentUpon>BresenhamI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BresenhamII.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BresenhamII.Designer.cs">
+      <DependentUpon>BresenhamII.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BresenhamIII.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BresenhamIII.Designer.cs">
+      <DependentUpon>BresenhamIII.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CuaternioInverso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuaternioInverso.Designer.cs">
+      <DependentUpon>CuaternioInverso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuaterniones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuaterniones.Designer.cs">
+      <DependentUpon>Cuaterniones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CuaternioNulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuaternioNulo.Designer.cs">
+      <DependentUpon>CuaternioNulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CuaternioOpuestoConjugado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuaternioOpuestoConjugado.Designer.cs">
+      <DependentUpon>CuaternioOpuestoConjugado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CuaternioValorAbsoluto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuaternioValorAbsoluto.Designer.cs">
+      <DependentUpon>CuaternioValorAbsoluto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Escalamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Escalamiento.Designer.cs">
+      <DependentUpon>Escalamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones.cs" />
+    <Compile Include="Grassman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grassman.Designer.cs">
+      <DependentUpon>Grassman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matriz Por Vector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Matriz Por Vector.Designer.cs">
+      <DependentUpon>Matriz Por Vector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatrizCompuest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatrizCompuest.Designer.cs">
+      <DependentUpon>MatrizCompuest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatrizEscalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatrizEscalar.Designer.cs">
+      <DependentUpon>MatrizEscalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatrizTranspuesta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatrizTranspuesta.Designer.cs">
+      <DependentUpon>MatrizTranspuesta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Multiplicacion de Matrices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Multiplicacion de Matrices.Designer.cs">
+      <DependentUpon>Multiplicacion de Matrices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiplicacionVector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiplicacionVector.Designer.cs">
+      <DependentUpon>MultiplicacionVector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NormalizacionCuaternios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NormalizacionCuaternios.Designer.cs">
+      <DependentUpon>NormalizacionCuaternios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NormalizacionVector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NormalizacionVector.Designer.cs">
+      <DependentUpon>NormalizacionVector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductoCuaternios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductoCuaternios.Designer.cs">
+      <DependentUpon>ProductoCuaternios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resta de Matrices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resta de Matrices.Designer.cs">
+      <DependentUpon>Resta de Matrices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RestaCuaternios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestaCuaternios.Designer.cs">
+      <DependentUpon>RestaCuaternios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RestaVectores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestaVectores.Designer.cs">
+      <DependentUpon>RestaVectores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rotacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rotacion.Designer.cs">
+      <DependentUpon>Rotacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suma de Matrices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suma de Matrices.Designer.cs">
+      <DependentUpon>Suma de Matrices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SumaCuaternios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SumaCuaternios.Designer.cs">
+      <DependentUpon>SumaCuaternios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SumaVectores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SumaVectores.Designer.cs">
+      <DependentUpon>SumaVectores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Traslacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Traslacion.Designer.cs">
+      <DependentUpon>Traslacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VectorCruz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VectorCruz.Designer.cs">
+      <DependentUpon>VectorCruz.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BresenhamI.resx">
+      <DependentUpon>BresenhamI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BresenhamII.resx">
+      <DependentUpon>BresenhamII.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BresenhamIII.resx">
+      <DependentUpon>BresenhamIII.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CuaternioInverso.resx">
+      <DependentUpon>CuaternioInverso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuaterniones.resx">
+      <DependentUpon>Cuaterniones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CuaternioNulo.resx">
+      <DependentUpon>CuaternioNulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CuaternioOpuestoConjugado.resx">
+      <DependentUpon>CuaternioOpuestoConjugado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CuaternioValorAbsoluto.resx">
+      <DependentUpon>CuaternioValorAbsoluto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Escalamiento.resx">
+      <DependentUpon>Escalamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grassman.resx">
+      <DependentUpon>Grassman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matriz Por Vector.resx">
+      <DependentUpon>Matriz Por Vector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatrizCompuest.resx">
+      <DependentUpon>MatrizCompuest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatrizEscalar.resx">
+      <DependentUpon>MatrizEscalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatrizTranspuesta.resx">
+      <DependentUpon>MatrizTranspuesta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Multiplicacion de Matrices.resx">
+      <DependentUpon>Multiplicacion de Matrices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiplicacionVector.resx">
+      <DependentUpon>MultiplicacionVector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NormalizacionCuaternios.resx">
+      <DependentUpon>NormalizacionCuaternios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NormalizacionVector.resx">
+      <DependentUpon>NormalizacionVector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductoCuaternios.resx">
+      <DependentUpon>ProductoCuaternios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resta de Matrices.resx">
+      <DependentUpon>Resta de Matrices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestaCuaternios.resx">
+      <DependentUpon>RestaCuaternios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestaVectores.resx">
+      <DependentUpon>RestaVectores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rotacion.resx">
+      <DependentUpon>Rotacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suma de Matrices.resx">
+      <DependentUpon>Suma de Matrices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SumaCuaternios.resx">
+      <DependentUpon>SumaCuaternios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SumaVectores.resx">
+      <DependentUpon>SumaVectores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Traslacion.resx">
+      <DependentUpon>Traslacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VectorCruz.resx">
+      <DependentUpon>VectorCruz.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llave1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llave2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
